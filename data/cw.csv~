@@ -1,0 +1,4 @@
+symbol,type, issuer, conversion, listed_shares, ipo_price, strike, ipo_date, first_trading, last_trading, ex-date
+CFPT1901, C, VND, 2, 2000000, 1900, 45000, 
+CHPG1091, C, MBS, 2000000,
+C
