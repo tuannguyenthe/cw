@@ -40,7 +40,11 @@ class CW(Equity):
         self.ipo_price = ipo_price
         self.ipo_date = date.fromisoformat(ipo_date)
         self.maturity = date.fromisoformat(maturity)
-    
+
+    def cw_remaining(self) -> int:
+        __delta = self.maturity - date.today()
+        return __delta.days
+        
 @dataclass
 class Stock(Equity):
     pass
